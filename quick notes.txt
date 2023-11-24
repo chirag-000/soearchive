@@ -1,0 +1,26 @@
+
+👍Best Practices
+✔use button for actions & anchor for redirection
+✔div,span do not provide any semantics
+✔for elem w/o any semantic value use role attribute
+✔use vw/vh for setting width/height
+✔em for spacing,padding & em/rem for fonts
+✔put the :hover rule after the :link and :visited rules but before the :active
+✔Set height/width in html doc for SEO/performence improvements
+✔vmin,vmax,%,min-height/width is for sizing containers
+✔if u design website desktop first the use max-width to make website responsive on smaller viewports, if mobile first then use min-width to make webiste responsive on lager viewports
+✔Do webpage designing in chrome devtools
+
+〰Tasks
+Link gtag to external js to improve performence
+use META tag for SEO
+CHATGPT section-wrapper
+Lighthouse score > 90
+<meta property="og:title" content="Welcome to Netlify">
+<meta property="og:url" content="https://docs.netlify.com/">
+
+
+
+ctrl + shift + j  console -> document.designMode='on'
+ctrl + p for files associated to site, > for all commands 
+Sources -> coverage

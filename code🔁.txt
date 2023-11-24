@@ -1,0 +1,20 @@
+.container {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+} use this class for all sections/divs (inside maal)
+The mobile-first pre-defined media queries:
+/* xs */
+/* @media (min-width: 475px) { .container { max-width:475px } } */
+/* sm */
+/* @media (min-width: 640px) { .container { max-width:640px } } */ https://youtu.be/K24lUqcT0Ms?feature=shared&t=353
+
+.container {
+width: 90%;
+margin: 0 auto;
+} use this class for all sections/divs (popular maal)
+
+[data-color="primary"]{ }
+<div data-color="primary" class="box">I am first box</div>

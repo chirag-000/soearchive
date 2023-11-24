@@ -1,0 +1,75 @@
+padding: 10px 0 0 10px;
+margin:35px;
+height: 200px;
+--some-name : rgb(250,225,20); css variable
+:root {	var(--css-variable , other-optional);
+	margin:0; padding:0; font-family : ... ; box-sizing: border-box;
+} to declare global variables to use across the website
+
+display: inline-block; makes the elem inline
+display: inline-flex;
+display: inline-grid; on below one with exact spacing
+display: grid; flex,block...
+visibility: hidden; only hides the elem but its layout/space is retained
+justify-content: center; places the elem content in center
+justify-content: space-evenly;
+box-sizing: border-box;
+! float: left; elem shifted to the left, or right, until it touches the edge of its containing box, but it can overflow
+float: right; to prevent overflow of elem from its container/parent -> display: flow-root;
+! clear: right; not allow any floating elem to its right
+
+width: 80vw; 80% of viewport width
+width: 100vmin; 100% width of the minimum (of viewport height/width)
+height: 10vh;
+min-height: 80vh;
+margin: auto; aligns in center, not for inline element
+margin: 23px auto;
+position: relative; top: 40px; left: 40px; z-index: 1; the space/layout of other surrounding elem stays same but relative elem can be moved anywhere. relative means relative to its static pos it is positioned
+position: absolute; top: 40px; left: 40px; z-index: 1; same as relative but no space is created for the element in the page layout. absolute means it is positioned wrt to its ancestor/parent that is positioned/transformed/filtered/perspectived
+position: sticky; top: 20px; z-index: 1; same as static but as we scroll, at mentioned it also starts coming down in the sense it is just sticked
+position: fixed; it is just fixed at that position no mater where u scroll it will bw present at that pos
+@media (min-width: 1024px) { do...this } for all media types
+@media mediatype only (expressions) {
+            CSS-Code;
+        }
+
+color: yellow;
+border: 2px solid blue;
+border-radius: 10% 30% 50% 70%;
+box-shadow: h-offset v-offset blur spread color inset/leaveitblank;
+outline: 5px solid blue; outline-offset: 12px; does not affect box model
+list-style - : ;
+overflow: auto; pust scroll bar to content if it overflows
+overflow-x: hidden; removes scrolling along x axis
+
+font-family: 'Segoe UI';
+font-size: 20px; 
+font-style:italic;
+font-weight: 500;
+opacity:0.3; set opacity of the elem
+text-align: center;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-color: blue;
+text-decoration-style: dotted;
+text-decoration-thickness: 7px;
+text-indent: 45px;
+word-break: break-all;
+text-overflow: ellipsis;
+overflow: hidden;
+letter-spacing: 30px;
+line-height: 1.4;
+cursor: pointer; grab,not-allowed,wait... sets the mouse cursor to pointer when placed on that elem
+.box *{ } applies to all child elem of box class
+p:first-child::first-line{ } applies to first child of first paragraph
+.box:nth-child(odd){ } applies to all odd children :pseudo-classes ::pseudo-elem
+.box:nth-last-child(2){ } applies to 2nd child from last
+div::after { } applies immediately after the div elem
+div::before { }
+p::selection { } when text inside p is selected these styles apply
+
+
+
+
+
+
